@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,astro}'],
+  content: ['./index.html', './src/**/*.{css,vue,js,ts,jsx,tsx,astro}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
